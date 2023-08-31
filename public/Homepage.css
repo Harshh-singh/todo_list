@@ -1,0 +1,124 @@
+body{
+    width: 99vw;
+    height: 99vh;
+    margin: 0;
+    background-color: #979a9da6;
+}
+
+#main-container{
+    background-color: white;
+    color: #383b3ed6;
+    font-family: sans-serif;
+    margin-left: 50vh;
+    text-align: center;
+    width:50%;
+    height: 80%;
+    margin-top: 0%;
+    font-size: 13px;
+}
+#main-container label{
+text-align: left;
+margin-left: 10px;
+}
+h1{
+    padding-top: 3vh;
+    font-family: math;
+    border-bottom: 1px solid #d7dee5c7;
+    margin-bottom: 0;
+}
+#description-container{
+   padding-top: 7px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #d7dee5c7;
+}
+#description{   
+    color: #5c5e60d6;
+    outline: none;
+    border: none;
+    padding-left: 10px; 
+}
+#description::placeholder{
+    color: rgb(191, 193, 196);   
+}
+#category-date-container{
+display: flex;
+width: 100%;
+border-bottom: 1px solid #d7dee5c7;
+}
+#category{  
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right: 1px solid #d7dee5c7;
+}
+#category-list{
+    color: #5c5e60d6;
+    width: 98%;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 3vh;
+    margin-left: 7px;
+}
+
+#date-container{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 50%;
+}
+#date{
+    margin-left: 9px;
+    color: #5c5e60d6;
+    border: none;
+    outline: none;
+}
+.button{
+    display: flex;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    justify-content: center;
+    /* border-bottom: 1px solid #d7dee5c7; */
+}
+.btn-dark{
+    padding: 15px;
+    margin-right: 5px;
+}
+.btn-danger{
+    padding: 15px;
+    margin-left: 5px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 1px solid #d7dee5c7;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 17px;
+}
+li > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4vw;
+}
+#displaydate{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 13px;
+    margin-left: 2vw;
+}
+#displaydate > div{
+    margin-right: 10px;
+}
+.trash-can{
+    margin-right: 10px;
+}
